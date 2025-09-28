@@ -41,7 +41,8 @@ sudo python3 setup.py install
 ├── config.ini             # beállítások
 ├── totp_secret.txt        # titkos kulcs (ne töltsd fel GitHubra!)
 ├── fonts/
-│   └── DejaVuSansMono.ttf```
+│   └── DejaVuSansMono.ttf
+```
 
 
 ## Titkos kulcs
