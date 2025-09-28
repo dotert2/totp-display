@@ -1,8 +1,8 @@
 # TOTP Display – Raspberry Pi Zero W + e-Ink kijelző
 
-Ez egy DIY hardveres TOTP (időalapú egyszer használatos jelszó) generátor,  
-amely Raspberry Pi Zero W és Waveshare 2.13" V4 e-Paper kijelző segítségével jeleníti meg a 6 jegyű kódot.  
-Alkalmazható Ügyfélkapu+, Google Authenticator, GitHub, Gmail és bármilyen TOTP (RFC 6238) alapú kétlépcsős hitelesítéshez (2FA).
+Ez a projekt számomra elsősorban egy érdekesség, egyfajta kíváncsiságból indult kísérlet: ha már lapult a fiókomban egy Raspberry Pi Zero W és egy Waveshare 2.13" V4 e-Paper kijelző, gondlokoztam, mit lehetne belőlük kihozni. Az év elején sok szó esett az Ügyfélkapu új, kétfaktoros hitelesítést igénylő belépéséről, és adta magát az ötlet: miért ne készíthetnék belőle egy saját, kézzelfogható token generátort?
+
+A végeredmény egy DIY hardveres TOTP (időalapú egyszer használatos jelszó) kijelző lett, amely 30 másodpercenként új, 6 jegyű kódot jelenít meg. Bár az Ügyfélkapu+ inspirálta, valójában bármilyen TOTP alapú kétlépcsős hitelesítéshez használható – például Google Authenticator, Gmail vagy más 2FA-t igénylő szolgáltatás esetén.
 
 ---
 
