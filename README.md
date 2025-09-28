@@ -36,12 +36,12 @@ cd e-Paper/RaspberryPi_JetsonNano/python
 sudo python3 setup.py install
 
 ## Projekt mappaszerkezet
-/opt/totp-display/
+```/opt/totp-display/
 ├── totp_display.py        # fő program
 ├── config.ini             # beállítások
 ├── totp_secret.txt        # titkos kulcs (ne töltsd fel GitHubra!)
 ├── fonts/
-│   └── DejaVuSansMono.ttf
+│   └── DejaVuSansMono.ttf```
 
 
 ## Titkos kulcs
