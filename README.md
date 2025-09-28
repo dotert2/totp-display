@@ -26,10 +26,11 @@ Alkalmazható Ügyfélkapu+, Google Authenticator, GitHub, Gmail és bármilyen 
 ## Szükséges csomagok telepítése
 
 `sudo apt install -y git python3 python3-pip python3-pil python3-numpy python3-spidev python3-rpi.gpio fonts-dejavu-core`
-<pre>`pip3 install pyotp`
+
+`pip3 install pyotp`
 
 ## Waveshare e-Paper driver telepítése
-cd /opt
+```cd /opt
 sudo git clone https://github.com/waveshare/e-Paper.git
 cd e-Paper/RaspberryPi_JetsonNano/python
 sudo python3 setup.py install
@@ -49,7 +50,7 @@ A totp_secret.txt fájlban tárold a BASE32 formátumú secretet, amit a szolgá
 chmod 600 /opt/totp-display/totp_secret.txt
 
 ## Konfiguráció (config.ini)
-[display]
+```[display]
 rotation = 90
 invert = 0
 label = Ugyfelkapu+
