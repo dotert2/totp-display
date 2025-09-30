@@ -14,7 +14,7 @@ A végeredmény egy DIY hardveres TOTP (időalapú egyszer használatos jelszó)
 
 <p align="center">
   <img src="images/rpizero1.jpg" width="400">
-  <img src="images/rpizero2.jp" width="400">
+  <img src="images/rpizero2.jpg" width="400">
 </p>
 
 ---
