@@ -12,6 +12,11 @@ A végeredmény egy DIY hardveres TOTP (időalapú egyszer használatos jelszó)
 - microSD kártya (Raspberry Pi OS Lite)
 - Opcionális: DS3231 RTC modul (offline pontos időhöz)
 
+<p align="center">
+  <img src="images/rpizero1.jpg" width="400">
+  <img src="images/rpizero2.jp" width="400">
+</p>
+
 ---
 
 ## Rendszer előkészítés
